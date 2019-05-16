@@ -30,7 +30,7 @@ header {
   background: rgba(255, 255, 255, .03);
   overflow: hidden;
   border-radius: 3px;
-  box-shadow: 5px 10px 8px 10px #333;
+  box-shadow: 3px 5px 3px 3px #333;
 }
 /* display: block will prevent the iframe from scrolling */
 .item__overlay {
