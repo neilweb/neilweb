@@ -1,0 +1,99 @@
+html {
+  background: url(../img/airline.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+header {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  background: #193A55;
+}
+.navbar {
+  display: flex;
+  grid-column: 5 / span 8;
+  color: white;
+  align-items: center;
+}
+.navbar > ul > li {
+  list-style: none;
+  display: inline;
+  margin-left: 15px;
+}
+main {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+.icons {
+  background: #2C8D80;
+  grid-column: 2 / 5;
+  display: flex;
+  border-radius: 5px;
+  margin-top: 5rem;
+  justify-content: space-around;
+  /* padding: 10px; */
+  
+}
+.icons > button{
+  background: #2C8D80;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.icons > button:hover {
+  background: #1563B7;
+}
+.inputBox1 {
+  grid-column: 2 / 5;
+  grid-row: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-left: 1px solid black;
+  border-right: 1px solid black; */
+}
+.inputBox1 > input {
+  padding: 12px;
+  margin: 0 15px;
+  background: #193A55;
+  color: white;
+  font-weight: 900;
+}
+.inputBox2 {
+  grid-column: 2 / 5;
+  grid-row: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+}
+.inputBox2 > input {
+  padding: 12px;
+  margin: 0 15px;
+  background: #193A55;
+  color: #fff;
+}
+.rowFour {
+  display: flex;
+  grid-column: 2 / 5;
+  justify-content: space-between;
+}
+.passenger {
+  /* grid-column: 2 / 4;
+  grid-row: 4; */
+}
+.passenger > span {
+  padding-left: 15px;
+}
+.passenger > input {
+  padding: 12px;
+  width: 80px;
+  background: #193A55;
+  color: white;
+  text-align: center;
+}
+.radio {
+
+  padding: 10px 0;
+}
